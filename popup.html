@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NerdSpace Launch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+
+            body,html{
+                font-family: 'Open Sans', sans-serif;
+                font-size: 14px;
+                margin:0;
+                min-height: 180px;
+                width: 300px;
+
+            }
+            h1{
+                font-size: 18px;
+                font-weight: 400px;
+                font-family: 'Menlo' monospace;
+                margin:0;
+                color:rgb(18, 16, 29)
+            }
+            a:link,a:visited{
+                text-decoration: none;
+                color:#000;
+                outline:0;
+            }
+            img{
+                width: 30px;
+            }
+            .logo{
+                padding:18px;
+            }
+            .logo-icon{
+                margin-right: 12px;
+                vertical-align: text-bottom;
+            }
+
+            .modal-header{
+                align-items: center;
+                border-bottom: 0.5px solid grey;
+            }
+            .modal-content{
+                padding :0 25px;
+                border-bottom: 0.5px solid grey;
+
+            }
+            .modal-model-icon{
+                height:50px;
+                width:100%;
+            }
+            .version{
+                font-size: 14px;
+            }
+            .flex-container{
+                display:flex;
+                justify-content: space-between;
+                padding:10px 22px;
+            }
+            .flex{
+                width:130px;
+                opacity: 1;
+                transition: opacity 0.2s ease-in-out;
+            }
+            .flex:hover{
+                opacity: 0.4;
+            }
+            .flex .fab{
+                font-size:42px;
+
+            }
+            .instagram{
+                background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+            }
+
+        </style>
+</head>
+
+<body>
+    <div class="modal-header">
+        <h1 class="logo">
+            <img src="img/icon_128.png" alt="NerdSpace">
+            Land-dhari-coder
+            <span class="version">(1.0.0)</span>
+        </h1>
+    </div>
+    <div class="modal-content">
+        <p>Easy access to all my social handles
+        </p>
+    </div>
+    <div class="model-icon">
+        <div class="flex-container">
+            <div class="flex">
+                <a href="https://www.youtube.com/channel/UCGE_Pt8sc1-lrlZQKxa6KGQ" target="_blank">
+                    <i class="fab fa-youtube" style="color:rgb(232, 16, 16)" ></i>
+                </a>
+            </div>
+            <div class="flex">
+                <a href="https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbEpiYU5YcXAxQlJFTFJ3NGhORl9oSkRDVENvUXxBQ3Jtc0trNXlfRWxrSm81WklRd0J3cGg3aUY3R3llQ3VRYm8ybFFoNWtTRlp5UUtZNWtNZjcyTXZDaDdSYUw3Zk1LaGltbUVTLXVEYkdOUVN6VHM2LVNzeWJCdkRPWHg4OURKRklFcXJaZlFXSGttMnd2ZHlRZw&q=https%3A%2F%2Fwww.instagram.com%2Fomordeep1909%2F"
+                    target="_blank">
+                    <i class="fab fa-instagram-square instagram" style="color:"></i>
+                </a>
+            </div>
+            <div class="flex">
+                <a href="https://github.com/punyprogrammer" target="_blank">
+                    <i class="fab fa-github " ></i>
+                </a>
+            </div>
+            <div class="flex">
+                <a href="https://www.kaggle.com/amardeepganguly" target="_blank">
+                    <i class="fab fa-kaggle" style="color:rgb(60, 174, 220)" ></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+
+</body>
+
+</html>

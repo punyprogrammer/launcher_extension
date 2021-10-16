@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "version":"2",
+    "name": "Amardeep land-dhari coder Launcher",
+    "description": "A handler for a all social links",
+    "icons": {
+        "128": "icon_128.png"
+    },
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab"
+    ]
+}
